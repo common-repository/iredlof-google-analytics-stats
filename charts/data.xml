@@ -1,0 +1,29 @@
+<chart palette="1" labelDisplay='Rotate' decimals='2' xAxisNamePadding="0" labelPadding="7" slantLabels='1' caption="Google Analytics Stats by iRedlof" subcaption="Demo Graph" xAxisName="Month" yAxisName="Sales" yAxisMinValue="15000" numberPrefix="$" showValues="0" alternateHGridColor="0077cc" alternateHGridAlpha="10" divLineColor="058dc7" divLineAlpha="50" canvasBorderColor="666666" baseFontColor="666666" lineColor="058dc7" anchorRadius="4" canvasPadding="20" radius3D="10" pieRadius="95" >
+<set label="25 Jan 09" value="17400"/>
+<set label="22 Feb 09" value="19800"/>
+<set label="22 Mar 09" value="21800"/>
+<set label="22 Apr 09" value="23800"/>
+<set label="22 May 09" value="29600"/>
+<set label="22 Jun 09" value="27600"/>
+<set label="22 Jul 09" value="31800"/>
+<set label="22 Aug 09" value="39700"/>
+<set label="22 Sep 09" value="37800"/>
+<set label="22 Oct 09" value="21900"/>
+<set label="22 Nov 09" value="32900"/>
+<set label="22 Dec 09" value="39800"/>
+−
+<styles>
+−
+<definition>
+<style name="Anim1" type="animation" param="_xscale" start="0" duration="1"/>
+<style name="Anim2" type="animation" param="_alpha" start="0" duration="0.6"/>
+<style name="DataShadow" type="Shadow" alpha="40"/>
+</definition>
+−
+<application>
+<apply toObject="DIVLINES" styles="Anim1"/>
+<apply toObject="HGRID" styles="Anim2"/>
+<apply toObject="DATALABELS" styles="DataShadow,Anim2"/>
+</application>
+</styles>
+</chart>
